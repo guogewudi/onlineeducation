@@ -11,6 +11,12 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author Guoyuhang
  * @since 2019-08-15
  */
+
+/**
+
+ * @author Guoyuhang
+ * @since 2019-08-15
+ */
 public interface VideoService extends IService<Video> {
 
 }

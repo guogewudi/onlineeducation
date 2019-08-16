@@ -59,7 +59,7 @@ public class Teacher implements Serializable {
     @TableField(value = "is_deleted")
     private Boolean deleted;
 
-    @ApiModelProperty(value = "创建时间")
+    @ApiModelProperty(value = "创建时间", example = "2019-01-01 8:00:00")
     @TableField(fill = FieldFill.INSERT)
     private Date gmtCreate;
 
